@@ -17,9 +17,9 @@ export default function Skills(){
                 <h1 className=" text-center text-5xl text-red-700">Skills</h1>
                 <div className="max-md:flex max-md:flex-wrap   justify-between  mt-9 max-md:space-y-7 ">
                     <div className="  max-md:flex max-md:flex-wrap md:grid md:grid-cols-2  max-md:space-y-7">
-                        <div className="flex flex-col space-y-4 items-center w-full">
-                            <h1 className="text-2xl text-center ">Fornt-end</h1>
-                            <div className="space-x-3 flex flex-wrap justify-center">
+                        <div className="flex flex-col space-y-4 items-center w-full ">
+                            <h1 className="text-2xl text-center text-white">Fornt-end</h1>
+                            <div className="space-x-3 flex flex-wrap justify-center text-white">
                             <FontAwesomeIcon size="xs" icon={faHtml5} className="w-10"   /> 
                             <FontAwesomeIcon icon={faCss3Alt} className="w-10"   /> 
                             <FontAwesomeIcon icon={faJs} className="w-10"   /> 
@@ -29,7 +29,7 @@ export default function Skills(){
                             <FontAwesomeIcon icon={faBootstrap} className="w-10"   /> 
                             
                             </div>
-                            <div className="space-x-2 flex flex-wrap justify-center">
+                            <div className="space-x-2 flex flex-wrap justify-center text-white">
                                 <span>HTML,</span>
                                 <span>CSS,</span>
                                 <span>JavaScript,</span>
@@ -42,8 +42,8 @@ export default function Skills(){
                     
                     
                         <div className="flex flex-col space-y-4 items-center w-full">
-                            <h1 className="text-2xl text-center">Back-end</h1>
-                            <div className="space-x-3 flex flex-wrap justify-center ">
+                            <h1 className="text-2xl text-center text-white">Back-end</h1>
+                            <div className="space-x-3 flex flex-wrap justify-center text-white ">
                             <FontAwesomeIcon size="xs" icon={faPython} className="w-10"   /> 
                             <FontAwesomeIcon icon={faPhp} className="w-10"   /> 
                             <FontAwesomeIcon icon={faJava} className="w-10"   /> 
@@ -54,7 +54,7 @@ export default function Skills(){
                             
                             
                             </div>
-                            <div className="space-x-2 flex flex-wrap justify-center">
+                            <div className="space-x-2 flex flex-wrap justify-center text-white">
                                 <span>Python,</span>
                                 <span>PHP,</span>
                                 <span>Java,</span>
@@ -69,14 +69,14 @@ export default function Skills(){
                     </div>
                     <div className=" max-md:flex max-md:flex-wrap md:grid md:grid-cols-2 max-md:space-y-7">
                         <div className="flex flex-col space-y-4 items-center w-full">
-                        <h1 className="text-2xl text-center">Database</h1>
-                            <div className="space-x-3 flex flex-wrap">
+                        <h1 className="text-2xl text-center text-white">Database</h1>
+                            <div className="space-x-3 flex flex-wrap text-white">
                             <Iconmysql/>
                             <Iconfirebase/>
                             <Iconpostgresql/>
                             
                             </div>
-                            <div className="space-x-2 flex flex-wrap">
+                            <div className="space-x-2 flex flex-wrap text-white">
                                 <span>Mysql,</span>
                                 <span>Firebase,</span>
                                 <span>Postgresql</span>
@@ -86,8 +86,8 @@ export default function Skills(){
                     
                     
                         
-                        <div className="flex flex-col space-y-4 items-center w-full">
-                        <h1 className="text-2xl text-center">Tool</h1>
+                        <div className="flex flex-col space-y-4 items-center w-full text-white">
+                        <h1 className="text-2xl text-center text-white">Tool</h1>
                             <div className="space-x-3 flex flex-wrap">
                             <FontAwesomeIcon size="xs" icon={faDocker} className="w-10"   />
                             <Iconpostman/> 

@@ -8,7 +8,7 @@ export default function Experiences(){
         <div className="min-w-full font-Kode_Mono">
            <h1 className="text-5xl text-center text-red-700 mb-6 mt-12  stroke-gray-300">Experiences</h1>
             <div className="flex flex-wrap md:space-x-5 max-lg:justify-center lg:justify-center lg:space-x-10 xl:justify-start xl:space-x-4 space-y-5 max-md:justify-center max-md:space-y-5 ">
-                <div className="card card-compact bg-base-100 xl:w-96 max-lg:w-80 lg:w-72 md:ml-5 mt-5 shadow-xl">
+                <div className="card card-compact  xl:w-96 max-lg:w-80 lg:w-72 md:ml-5 mt-5 shadow-xl bg-[#1D232A] text-white">
                 <figure className="pt-4">
                     <img width={250} height={330} className="rounded-xl"
                     src="/tii-kittinan-pages/image/playsmart.jpg"
@@ -23,7 +23,7 @@ export default function Experiences(){
                     </div>
                 </div>
                 </div>
-                <div className="card card-compact bg-base-100 xl:w-96 max-lg:w-80 lg:w-72 md:ml-5 shadow-xl">
+                <div className="card card-compact  xl:w-96 max-lg:w-80 lg:w-72 md:ml-5 shadow-xl bg-[#1D232A] text-white">
                 <figure className="pt-4">
                     <img width={330} height={330} className="rounded-xl"
                     src="/tii-kittinan-pages/image/projectrice.jpg"
@@ -38,7 +38,7 @@ export default function Experiences(){
                     </div>
                 </div>
                 </div>
-                <div className="card card-compact bg-base-100 xl:w-96 max-lg:w-80 lg:w-72 shadow-xl">
+                <div className="card card-compact  xl:w-96 max-lg:w-80 lg:w-72 shadow-xl bg-[#1D232A] text-white">
                 <figure className="pt-4">
                     <img className="h-60 rounded-xl" 
                     src="/tii-kittinan-pages/image/HealthCalendar/calendar.jpg"
@@ -52,7 +52,7 @@ export default function Experiences(){
                     </div>
                 </div>
                 </div>
-                <div className="card card-compact bg-base-100 xl:w-96 max-lg:w-80 lg:w-72 shadow-xl">
+                <div className="card card-compact  xl:w-96 max-lg:w-80 lg:w-72 shadow-xl bg-[#1D232A] text-white">
                 <figure className="pt-4">
                     <Image width={330} height={330} className="rounded-xl"
                     src="/tii-kittinan-pages/image/projectclude/projectclude.jpg"
@@ -66,7 +66,7 @@ export default function Experiences(){
                     </div>
                 </div>
                 </div>
-                <div className="card card-compact bg-base-100 xl:w-96 max-lg:w-80 lg:w-72 shadow-xl">
+                <div className="card card-compact  xl:w-96 max-lg:w-80 lg:w-72 shadow-xl bg-[#1D232A] text-white">
                 <figure className="pt-4">
                     <img  width={370} height={330} className="rounded-xl"
                     src="/tii-kittinan-pages/image/esp32cam/esp32cam-ml.jpg"
@@ -82,8 +82,8 @@ export default function Experiences(){
                 </div>
 
 </div>
-<dialog id="my_modal_1" className="modal  ">
-  <div className="modal-box w-11/12 max-w-5xl ">
+<dialog id="my_modal_1" className="modal ">
+  <div className="modal-box w-11/12 max-w-5xl bg-[#1D232A] text-white">
     <form method="dialog">
       {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
@@ -110,7 +110,7 @@ export default function Experiences(){
   </div>
 </dialog>
 <dialog id="my_modal_2" className="modal  ">
-  <div className="modal-box w-11/12 max-w-5xl ">
+  <div className="modal-box w-11/12 max-w-5xl bg-[#1D232A] text-white">
     <form method="dialog">
       {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
@@ -155,7 +155,7 @@ export default function Experiences(){
   </div>
 </dialog>
 <dialog id="my_modal_3" className="modal  ">
-  <div className="modal-box w-11/12 max-w-5xl ">
+  <div className="modal-box w-11/12 max-w-5xl bg-[#1D232A] text-white ">
     <form method="dialog">
       {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
@@ -200,7 +200,7 @@ export default function Experiences(){
   </div>
 </dialog>
 <dialog id="my_modal_4" className="modal  ">
-  <div className="modal-box w-11/12 max-w-5xl ">
+  <div className="modal-box w-11/12 max-w-5xl bg-[#1D232A] text-white">
     <form method="dialog">
       {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
@@ -241,7 +241,7 @@ export default function Experiences(){
   </div>
 </dialog>
 <dialog id="my_modal_5" className="modal  ">
-  <div className="modal-box w-11/12 max-w-5xl ">
+  <div className="modal-box w-11/12 max-w-5xl bg-[#1D232A] text-white ">
     <form method="dialog">
       {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>

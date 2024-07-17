@@ -20,27 +20,27 @@ export default function Navbar(){
                 </a>
             </div>
             <div>
-                <div className="md:hidden">
+                <div className="md:hidden text-white">
                     <button onClick={toggleMenu}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
 </svg>
                     </button>
                 </div>
-                <ul className="hidden md:flex space-x-9 mx-5">
-                    <li><a href="#contentinfo" className="hover:text-red-700 font-Kode_Mono">Home</a></li>
-                    <li><a href="#abortandskills" className="hover:text-red-700 font-Kode_Mono">Abort & Skills</a></li>
-                    <li><a href="#experiences" className="hover:text-red-700 font-Kode_Mono">Experiences</a></li>
-                    <li><a href="#contact" className="hover:text-red-700 font-Kode_Mono">Contact</a></li>
+                <ul className="hidden md:flex space-x-9 mx-5 ">
+                    <li><a href="#contentinfo" className="hover:text-red-700 font-Kode_Mono text-white">Home</a></li>
+                    <li><a href="#abortandskills" className="hover:text-red-700 font-Kode_Mono text-white">Abort & Skills</a></li>
+                    <li><a href="#experiences" className="hover:text-red-700 font-Kode_Mono text-white">Experiences</a></li>
+                    <li><a href="#contact" className="hover:text-red-700 font-Kode_Mono text-white">Contact</a></li>
                 </ul>
             </div>
             </div>
             {isMenuOpen ? (
                 <ul className="flex-col md:hidden  mx-4 space-y-2 ">
-                <li><a href="#contentinfo" className="font-Kode_Mono hover:text-red-700">Home</a></li>
-                <li><a href="#abortandskills" className="font-Kode_Mono hover:text-red-700">Abort</a></li>
-                <li><a href="#experiences" className="font-Kode_Mono hover:text-red-700">Experiences</a></li>
-                <li><a href="#contact" className="font-Kode_Mono hover:text-red-700">Contact</a></li>
+                <li><a href="#contentinfo" className="font-Kode_Mono hover:text-red-700 text-white">Home</a></li>
+                <li><a href="#abortandskills" className="font-Kode_Mono hover:text-red-700 text-white">Abort</a></li>
+                <li><a href="#experiences" className="font-Kode_Mono hover:text-red-700 text-white">Experiences</a></li>
+                <li><a href="#contact" className="font-Kode_Mono hover:text-red-700 text-white">Contact</a></li>
             </ul>
             ): null
           }
