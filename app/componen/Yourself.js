@@ -1,7 +1,7 @@
 export default function Yourself(){
 
     return(
-        <div className=" font-Kode_Mono">
+        <div className=" font-Kode_Mono ">
       <h1 className="text-5xl font-bold ">Hello</h1>
       <h1 className="text-xl font-bold max-md:text-lg" ><span className="text-red-700">My name is</span> Kittinan  Kunnahong</h1>
       <div className="">
