@@ -3,7 +3,7 @@ export default function Internship(){
     return(
     <div className="carousel  w-[800px] h-[550px] max-md:w-[300px] max-md:h-[200px] ">
   <div id="slide1" className="carousel-item relative w-full" >
-    <img src="/tii-kittinan-pages/image/internshipall/playsmart.jpg" 
+    <Image width={1200} height={330} src="/tii-kittinan-pages/image/internshipall/playsmart.jpg" 
       className="w-full" />
     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
       <a href="#slide7" className="btn btn-circle">❮</a>
