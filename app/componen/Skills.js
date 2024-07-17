@@ -70,13 +70,13 @@ export default function Skills(){
                     <div className=" max-md:flex max-md:flex-wrap md:grid md:grid-cols-2 max-md:space-y-7">
                         <div className="flex flex-col space-y-4 items-center w-full">
                         <h1 className="text-2xl text-center text-white">Database</h1>
-                            <div className="space-x-3 flex flex-wrap text-white">
+                            <div className="space-x-3 flex flex-wrap justify-center text-white">
                             <Iconmysql/>
                             <Iconfirebase/>
                             <Iconpostgresql/>
                             
                             </div>
-                            <div className="space-x-2 flex flex-wrap text-white">
+                            <div className="space-x-2 flex flex-wrap justify-center text-white">
                                 <span>Mysql,</span>
                                 <span>Firebase,</span>
                                 <span>Postgresql</span>
@@ -88,7 +88,7 @@ export default function Skills(){
                         
                         <div className="flex flex-col space-y-4 items-center w-full text-white">
                         <h1 className="text-2xl text-center text-white">Tool</h1>
-                            <div className="space-x-3 flex flex-wrap">
+                            <div className="space-x-3 flex flex-wrap justify-center">
                             <FontAwesomeIcon size="xs" icon={faDocker} className="w-10"   />
                             <Iconpostman/> 
                             <Icondialogflow/>
@@ -97,7 +97,7 @@ export default function Skills(){
                             
                             
                             </div>
-                            <div className="space-x-2 flex flex-wrap">
+                            <div className="space-x-2 flex justify-center flex-wrap">
                                 <span>Docker,</span>
                                 <span>Postman,</span>
                                 <span>Dialogflow,</span>
