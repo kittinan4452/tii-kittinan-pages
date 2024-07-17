@@ -11,7 +11,7 @@ export default function Internship(){
     </div>
   </div>
   <div id="slide2" className="carousel-item relative w-full">
-    <img
+    <Image width={1200} height={330}
       src="/tii-kittinan-pages/image/internshipall/playsmart1.jpg" 
       className="w-full" />
     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -20,7 +20,7 @@ export default function Internship(){
     </div>
   </div>
   <div id="slide3" className="carousel-item relative w-full">
-    <img
+    <Image width={1200} height={330}
       src="/tii-kittinan-pages/image/internshipall/playsmart2.jpg" 
       className="w-full" />
     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -29,7 +29,7 @@ export default function Internship(){
     </div>
   </div>
   <div id="slide4" className="carousel-item relative w-full">
-    <img
+    <Image width={1200} height={330}
       src="/tii-kittinan-pages/image/internshipall/playsmart3.jpg" 
       className="w-full" />
     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -38,7 +38,7 @@ export default function Internship(){
     </div>
   </div>
   <div id="slide5" className="carousel-item relative w-full">
-    <img
+    <Image width={1200} height={330}
       src="/tii-kittinan-pages/image/internshipall/playsmart4.jpg" 
       className="w-full" />
     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -47,7 +47,7 @@ export default function Internship(){
     </div>
   </div>
   <div id="slide6" className="carousel-item relative w-full">
-    <img
+    <Image width={1200} height={330}
       src="/tii-kittinan-pages/image/internshipall/playsmart5.jpg" 
       className="w-full" />
     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -56,7 +56,7 @@ export default function Internship(){
     </div>
   </div>
   <div id="slide7" className="carousel-item relative w-full">
-    <img
+    <Image width={1200} height={330}
       src="/tii-kittinan-pages/image/internshipall/playsmart6.jpg" 
       className="w-full" />
     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
