@@ -1,4 +1,4 @@
-import { faBootstrap, faCss3, faCss3Alt, faDocker, faGithub, faHtml5, faJava, faJs, faLaravel, faNodeJs, faPhp, faPython, faReact, faUbuntu } from "@fortawesome/free-brands-svg-icons";
+import { faBootstrap, faCss3, faCss3Alt, faDocker, faGithub, faGolang, faHtml5, faJava, faJs, faLaravel, faNodeJs, faPhp, faPython, faReact, faUbuntu } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Iconnext from "../icon/Iconnext";
 import Icontailwind from "../icon/Icontailwind";
@@ -9,6 +9,9 @@ import Iconfirebase from "../icon/Iconfirebase";
 import Iconpostgresql from "../icon/Iconpostgrespql";
 import Iconpostman from "../icon/Iconpostman";
 import Icondialogflow from "../icon/Icondialogflow";
+import Iconmongodb from "../icon/Iconmongodb";
+import Iconmaterial from "../icon/Iconmaterial";
+import Icontypescript from "../icon/Icontypescript";
 
 
 export default function Skills(){
@@ -19,24 +22,28 @@ export default function Skills(){
                     <div className="  max-md:flex max-md:flex-wrap md:grid md:grid-cols-2  max-md:space-y-7">
                         <div className="flex flex-col space-y-4 items-center w-full ">
                             <h1 className="text-2xl text-center text-white">Fornt-end</h1>
-                            <div className="space-x-3 flex flex-wrap justify-center text-white">
+                            <div className="space-x-3 flex flex-wrap justify-center items-center text-white">
                             <FontAwesomeIcon size="xs" icon={faHtml5} className="w-10"   /> 
                             <FontAwesomeIcon icon={faCss3Alt} className="w-10"   /> 
                             <FontAwesomeIcon icon={faJs} className="w-10"   /> 
+                            <Icontypescript/>
                             <FontAwesomeIcon icon={faReact} className="w-10"   />
                             <Iconnext/> 
                             <Icontailwind/>
                             <FontAwesomeIcon icon={faBootstrap} className="w-10"   /> 
+                            <Iconmaterial className="w-10"/>
                             
                             </div>
                             <div className="space-x-2 flex flex-wrap justify-center text-white">
                                 <span>HTML,</span>
                                 <span>CSS,</span>
                                 <span>JavaScript,</span>
+                                <span>TypeScript,</span>
                                 <span>React.js,</span>
                                 <span>Next.js,</span>
                                 <span>TailwindCSS,</span>
-                                <span>Bootstrap</span>
+                                <span>Bootstrap,</span>
+                                <span>MaterialUI</span>
                             </div>
                         </div>
                     
@@ -51,6 +58,7 @@ export default function Skills(){
                             <FontAwesomeIcon icon={faNodeJs} className="w-10"   />
                             <Icondjango/> 
                             <Iconflask/>
+                            <FontAwesomeIcon icon={faGolang} className="w-20" />
                             
                             
                             </div>
@@ -62,6 +70,7 @@ export default function Skills(){
                                 <span>Nodejs,</span>
                                 <span>Django,</span>
                                 <span>flask,</span>
+                                <span>Golang</span>
                             </div>
                         
                     
@@ -74,12 +83,14 @@ export default function Skills(){
                             <Iconmysql/>
                             <Iconfirebase/>
                             <Iconpostgresql/>
+                            <Iconmongodb/>
                             
                             </div>
                             <div className="space-x-2 flex flex-wrap justify-center text-white">
                                 <span>Mysql,</span>
                                 <span>Firebase,</span>
                                 <span>Postgresql</span>
+                                <span>mongodb</span>
                                 
                             </div>
                         </div>

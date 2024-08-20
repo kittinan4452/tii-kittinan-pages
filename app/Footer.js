@@ -1,4 +1,4 @@
-import { faFacebook, faGithub, faInstagram, faXTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faGithub, faInstagram, faLinkedin, faXTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -30,6 +30,9 @@ export default function(){
     </a>
     <a href="https://www.facebook.com/profile.php?id=100006484345238" className="btn btn-outline text-white">
     <FontAwesomeIcon icon={faFacebook} className="w-8"   /> 
+    </a>
+    <a href="https://www.linkedin.com/in/kittinan-kunnahong-1b1287312/" className="btn btn-outline text-white">
+    <FontAwesomeIcon icon={faLinkedin} className="w-8"   /> 
     </a>
   </nav>
 </footer>
