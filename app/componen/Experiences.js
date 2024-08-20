@@ -80,7 +80,7 @@ export default function Experiences(){
                     </div>
                 </div>
                 </div>
-                <div className="card card-compact  xl:w-96 max-lg:w-80 lg:w-72 shadow-xl bg-[#1D232A] text-white">
+                {/*<div className="card card-compact  xl:w-96 max-lg:w-80 lg:w-72 shadow-xl bg-[#1D232A] text-white">
                 <figure className="pt-4">
                     <img  width={370} height={330} className="rounded-xl"
                     src="/tii-kittinan-pages/image/ics-test/1.jpg"
@@ -93,7 +93,7 @@ export default function Experiences(){
                     <button className="btn btn-primary" onClick={()=>document.getElementById('my_modal_6').showModal()}>Show More</button>
                     </div>
                 </div>
-                </div>
+                </div>*/}
 
 </div>
 <dialog id="my_modal_1" className="modal ">
@@ -285,10 +285,10 @@ export default function Experiences(){
     </div>
   </div>
 </dialog>
-<dialog id="my_modal_6" className="modal  ">
+{ /*<dialog id="my_modal_6" className="modal  ">
   <div className="modal-box w-11/12 max-w-5xl bg-[#1D232A] text-white ">
     <form method="dialog">
-      {/* if there is a button in form, it will close the modal */}
+       if there is a button in form, it will close the modal 
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
     <h1 className="font-bold text-2xl text-center text-red-700">Porject-Test-Front-End</h1>
@@ -312,7 +312,7 @@ export default function Experiences(){
 
     </div>
   </div>
-</dialog>
+</dialog> */}
 
         </div>
     )
