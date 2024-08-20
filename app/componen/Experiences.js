@@ -88,7 +88,7 @@ export default function Experiences(){
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title justify-center">Porject-Test-Front-End</h2>
-                    <p>Project that brings hardware to work with Machine Learning by working through the ESP32-cam board to increase convenience for users in measuring productivity.</p>
+                    <p>This project is a test project for applying for a Front-end position at ICS company.</p>
                     <div className="card-actions justify-center">
                     <button className="btn btn-primary" onClick={()=>document.getElementById('my_modal_6').showModal()}>Show More</button>
                     </div>
