@@ -80,7 +80,7 @@ export default function Experiences(){
                     </div>
                 </div>
                 </div>
-                {/*<div className="card card-compact  xl:w-96 max-lg:w-80 lg:w-72 shadow-xl bg-[#1D232A] text-white">
+                <div className="card card-compact  xl:w-96 max-lg:w-80 lg:w-72 shadow-xl bg-[#1D232A] text-white">
                 <figure className="pt-4">
                     <img  width={370} height={330} className="rounded-xl"
                     src="/tii-kittinan-pages/image/ics-test/1.jpg"
@@ -93,7 +93,7 @@ export default function Experiences(){
                     <button className="btn btn-primary" onClick={()=>document.getElementById('my_modal_6').showModal()}>Show More</button>
                     </div>
                 </div>
-                </div>*/}
+                </div>
 
 </div>
 <dialog id="my_modal_1" className="modal ">
@@ -285,7 +285,7 @@ export default function Experiences(){
     </div>
   </div>
 </dialog>
-{ /*<dialog id="my_modal_6" className="modal  ">
+<dialog id="my_modal_6" className="modal  ">
   <div className="modal-box w-11/12 max-w-5xl bg-[#1D232A] text-white ">
     <form method="dialog">
        if there is a button in form, it will close the modal 
@@ -301,18 +301,21 @@ export default function Experiences(){
     <img src="/tii-kittinan-pages/image/ics-test/2.jpg" className="rounded-md"  />
     <p>A detail page that shows the store's photo, store name, store rating, and store hours of operation.</p>
     </div>
-    
+    <div className="justify-center flex flex-col items-center space-y-4 mt-5">
+    <img src="/tii-kittinan-pages/image/ics-test/3.jpg" className="rounded-md"  />
+    <p>ICS json data file</p>
+    </div>
     
     
     <div className="justify-center flex flex-col items-center space-y-4 mt-5">
     <div className="space-x-4">
-    <a className="btn btn-outline btn-info" href="https://github.com/kittinan4452/project-test-fontend-ics.git">Github </a>
+    <a className="btn btn-outline btn-info" href="https://github.com/kittinan4452/project-test-frontend-ics.git">Github </a>
     </div>
     
 
     </div>
   </div>
-</dialog> */}
+</dialog> 
 
         </div>
     )
