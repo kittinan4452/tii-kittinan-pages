@@ -9,7 +9,7 @@ export default function Abort(){
                 <div className="flex space-x-2 text-xl"><h5 className="font-bold text-red-700">Name: </h5><span>Kittinan  Kunnahong</span></div>
                 <div className="flex space-x-2 text-xl"><h5 className="font-bold text-red-700">Nick Name: </h5><span>Tii</span></div>
                 <div className="flex space-x-2 text-xl"><h5 className="font-bold text-red-700">Born: </h5><span>September 19 2001</span></div>
-                <div className="flex space-x-2 text-xl"><h5 className="font-bold text-red-700">Age: </h5><span>22 years</span></div>
+                <div className="flex space-x-2 text-xl"><h5 className="font-bold text-red-700">Age: </h5><span>23 years</span></div>
                 <div className="flex space-x-2 text-xl"><h5 className="font-bold text-red-700">Sex: </h5><span>Male</span></div>
                 <div className="flex space-x-2 text-xl"><h5 className="font-bold text-red-700">Marital Status: </h5><span>Single</span></div>
                 <div className="flex space-x-2 text-xl"><h5 className="font-bold text-red-700">Nationality: </h5><span>Thai</span></div>
@@ -17,7 +17,7 @@ export default function Abort(){
             </div>
             <div className="space-y-4 flex flex-col font-Kode_Mono text-white ">
                 <h1 className="text-center text-2xl ">Education</h1>
-                <h5 className="text-xl">Bachelor of Computer Engineering Khon Kaen University ( 2020 - 2023)</h5>
+                <h5 className="text-xl">Bachelor of Computer Engineering Khon Kaen University ( 2020 - 2024)</h5>
             </div>
         </div>
         </div>

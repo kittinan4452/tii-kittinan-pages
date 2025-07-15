@@ -12,6 +12,9 @@ import Icondialogflow from "../icon/Icondialogflow";
 import Iconmongodb from "../icon/Iconmongodb";
 import Iconmaterial from "../icon/Iconmaterial";
 import Icontypescript from "../icon/Icontypescript";
+import { faAngular } from "@fortawesome/free-brands-svg-icons";
+import { SiNestjs } from "react-icons/si";
+
 
 
 export default function Skills(){
@@ -32,6 +35,10 @@ export default function Skills(){
                             <Icontailwind/>
                             <FontAwesomeIcon icon={faBootstrap} className="w-10"   /> 
                             <Iconmaterial className="w-10"/>
+                            {/* angularicon */}
+                            <FontAwesomeIcon icon={faAngular} className="w-10" />
+
+                            
                             
                             </div>
                             <div className="space-x-2 flex flex-wrap justify-center text-white">
@@ -44,6 +51,7 @@ export default function Skills(){
                                 <span>TailwindCSS,</span>
                                 <span>Bootstrap,</span>
                                 <span>MaterialUI</span>
+                                <span>Angular</span>
                             </div>
                         </div>
                     
@@ -59,6 +67,7 @@ export default function Skills(){
                             <Icondjango/> 
                             <Iconflask/>
                             <FontAwesomeIcon icon={faGolang} className="w-20" />
+                            <SiNestjs className="w-10 h-10 " />
                             
                             
                             </div>
@@ -71,6 +80,7 @@ export default function Skills(){
                                 <span>Django,</span>
                                 <span>flask,</span>
                                 <span>Golang</span>
+                                <span>Nestjs</span>
                             </div>
                         
                     
