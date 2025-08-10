@@ -1,7 +1,7 @@
 export default function Abort(){
     return (
         <div className="min-w-ful ">
-            <h1 className="text-5xl text-center text-red-700 mb-6 font-Kode_Mono mt-12">Abort</h1>
+            <h1 className="text-5xl text-center text-red-700 mb-6 font-Kode_Mono mt-12">About</h1>
             <div className="max-md:flex max-md:flex-wrap grid grid-cols-2 mx-auto min-w-full justify-between  space-x-4 space-y-4 ">
             
             <div className="space-y-4 flex flex-col w-full space-x-4 font-Kode_Mono text-white">

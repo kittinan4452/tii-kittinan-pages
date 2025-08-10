@@ -38,7 +38,7 @@ export default function Navbar(){
             {isMenuOpen ? (
                 <ul className="flex-col md:hidden  mx-4 space-y-2 ">
                 <li><a href="#contentinfo" className="font-Kode_Mono hover:text-red-700 text-white">Home</a></li>
-                <li><a href="#abortandskills" className="font-Kode_Mono hover:text-red-700 text-white">Abort</a></li>
+                <li><a href="#abortandskills" className="font-Kode_Mono hover:text-red-700 text-white">About</a></li>
                 <li><a href="#experiences" className="font-Kode_Mono hover:text-red-700 text-white">Experiences</a></li>
                 <li><a href="#contact" className="font-Kode_Mono hover:text-red-700 text-white">Contact</a></li>
             </ul>
