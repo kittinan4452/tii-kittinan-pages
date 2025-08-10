@@ -29,7 +29,7 @@ export default function Navbar(){
                 </div>
                 <ul className="hidden md:flex space-x-9 mx-5 ">
                     <li><a href="#contentinfo" className="hover:text-red-700 font-Kode_Mono text-white">Home</a></li>
-                    <li><a href="#abortandskills" className="hover:text-red-700 font-Kode_Mono text-white">Abort & Skills</a></li>
+                    <li><a href="#abortandskills" className="hover:text-red-700 font-Kode_Mono text-white">About & Skills</a></li>
                     <li><a href="#experiences" className="hover:text-red-700 font-Kode_Mono text-white">Experiences</a></li>
                     <li><a href="#contact" className="hover:text-red-700 font-Kode_Mono text-white">Contact</a></li>
                 </ul>
