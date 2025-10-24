@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     // basePath: "/tii-kittinan-pages",
-    output: "export",
+    // output: "export",
     images: {
         unoptimized: true,
       },

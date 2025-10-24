@@ -1,68 +1,36 @@
-# -----------------------------
-# Dependencies
-# -----------------------------
-node_modules/
-.pnp
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
 .pnp.js
 .yarn/install-state.gz
 
-# -----------------------------
-# Testing
-# -----------------------------
-coverage/
+# testing
+/coverage
 
-# -----------------------------
-# Next.js build output
-# -----------------------------
-.next/
-out/
-build/
+# next.js
+/.next/
+/out/
 
-# -----------------------------
-# Environment variables
-# -----------------------------
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# production
+/build
 
-# -----------------------------
-# System files
-# -----------------------------
+# misc
 .DS_Store
-Thumbs.db
 *.pem
 
-# -----------------------------
-# Log files
-# -----------------------------
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# -----------------------------
-# Vercel deployment
-# -----------------------------
+# local env files
+.env*.local
+
+# vercel
 .vercel
 
-# -----------------------------
-# TypeScript build files
-# -----------------------------
+# typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# -----------------------------
-# Project notes / temp files
-# -----------------------------
-*.swp
-*.tmp
-*.bak
-
-# -----------------------------
-# ✅ Important note:
-# DO NOT ignore these folders:
-# public/   (for images, icons, static assets)
-# pages/    (Next.js pages)
-# components/ (React components)
-# -----------------------------
